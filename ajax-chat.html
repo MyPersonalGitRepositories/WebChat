@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web-chat</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="js/jScrollPane/jScrollPane.css" />
+<link rel="stylesheet" type="text/css" href="css/page.css" />
+<link rel="stylesheet" type="text/css" href="css/chat.css" />
+
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="content">
+<div class="container-fluid">
+    <div class="" id="chatContainer">
+
+        <div id="chatTopBar" class="rounded"></div>
+        <div id="chatLineHolder"></div>
+
+        <div id="chatUsers" class="rounded"></div>
+        <div id="chatBottomBar" class="rounded">
+            <div class="tip"></div>
+
+            <form class="text-center" id="loginForm" method="post" action="">
+                <input id="name" name="name" class="rounded" maxlength="16" />
+                <input id="email" name="email" class="rounded" />
+                <input type="submit" class="blueButton" value="Login" />
+            </form>
+
+            <form class="text-center" id="submitForm" method="post" action="">
+                <input id="chatText" name="chatText" class="rounded" maxlength="255" />
+                <input type="submit" class="blueButton" value="Submit" />
+            </form>
+
+        </div>
+
+    </div>
+</div>
+</div>
+<div id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <section class="text-center">
+                <p>Git: <a href="https://github.com/MyPersonalGitRepositories">My repositories</a></p>
+                <p>Contact information: <a href="mailto:p.maxsym@gmail.com">p.maxsym@gmail.com</a></p>
+            </section>
+        </div>
+        <div class="text-center">&copy; Copyright Web-chat 2019</div>
+    </div>
+</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="js/jScrollPane/jquery.mousewheel.js"></script>
+<script src="js/jScrollPane/jScrollPane.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
