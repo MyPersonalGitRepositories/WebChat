@@ -71,7 +71,7 @@
 	font-size:15px;
 	overflow:hidden;
 	vertical-align:top;
-	width:190px;
+    width: 100%;
 }
 
 .chat .gravatar{
@@ -158,7 +158,7 @@
 	text-shadow:1px 1px 0 #E4E4E4;
 	padding:0 5px;
 	margin-right:5px;
-	width:185px;
+    width: 100%;
 	outline:none;
 }
 
@@ -169,7 +169,7 @@
 
 input#chatText{
 	/* The chat submit text field */
-	width:385px;
+    width: 100%;
 }
 
 
