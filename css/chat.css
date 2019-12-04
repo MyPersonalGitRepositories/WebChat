@@ -282,3 +282,7 @@ p.noChats,
 .noChats{
 	color: #000;
 }
+
+#name, #email {
+    margin-bottom: 1%;
+}
